@@ -87,19 +87,11 @@
             "configuration/messages/timer"
           ]
         },
-        "configuration/starboard",
-        "configuration/voicemaster",
-        "configuration/level-rewards",
-        "configuration/bump-reminder",
-        "configuration/reaction-triggers",
-        "configuration/command-aliases",
-        "configuration/logging"
       ]
     },
     {
       "group": "Miscellaneous",
       "pages": [
-        "miscellaneous/music",
         "miscellaneous/webhook",
         "miscellaneous/giveaway"
       ]
@@ -109,14 +101,12 @@
       "pages": [
         "integrations/spotify",
         "integrations/lastfm",
-        "integrations/fortnite",
         "integrations/social-notifications"
       ]
     },
     {
       "group": "Resources",
       "pages": [
-        "resources/syntax",
         {
           "group": "Scripting",
           "icon": "scroll",
@@ -127,7 +117,6 @@
           ]
         },
         "resources/permissions",
-        "resources/voices",
         "resources/languages"
       ]
     },
