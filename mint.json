@@ -9,7 +9,7 @@
   "colors": {
     "primary": "#000000",
     "light": "#2e5078",
-    "dark": "#2e5078",
+    "dark": "#60e7ff",
     "anchors": {
       "from": "#658a95",
       "to": "#95b6bd"
@@ -20,7 +20,7 @@
     "isHidden": true
   },
   "metadata": {
-    "theme-color": "#2e5078",
+    "theme-color": "#111111",
     "og:site_name": "lowest.bot"
   },
   "topbarLinks": [
