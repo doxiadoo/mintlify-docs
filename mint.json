@@ -1,15 +1,15 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "bleed",
+  "name": "lowest",
   "logo": {
-    "dark": "https://bleed.bot/bleed.png",
-    "light": "https://bleed.bot/bleed.png"
+    "dark": "favicon.png",
+    "light": "favicon.png"
   },
   "favicon": "favicon.png",
   "colors": {
-    "primary": "#658a95",
-    "light": "#95b6bd",
-    "dark": "#658a95",
+    "primary": "#000000",
+    "light": "#60e7ff",
+    "dark": "#60e7ff",
     "anchors": {
       "from": "#658a95",
       "to": "#95b6bd"
@@ -20,35 +20,35 @@
     "isHidden": true
   },
   "metadata": {
-    "theme-color": "#658a95",
-    "og:site_name": "bleed.bot"
+    "theme-color": "#111111",
+    "og:site_name": "lowest.bot"
   },
   "topbarLinks": [
     {
       "name": "Support Server",
-      "url": "https://discord.gg/bleed"
+      "url": "https://discord.gg/Gak6Yb5t39"
     }
   ],
   "topbarCtaButton": {
     "name": "Home",
-    "url": "https://bleed.bot"
+    "url": "https://lowest.bot"
   },
   "redirects": [
     {
       "source": "/commands",
-      "destination": "https://bleed.bot/commands"
+      "destination": "https://lowest.bot/commands"
     },
     {
       "source": "/status",
-      "destination": "https://bleed.bot/status"
+      "destination": "https://lowest.bot/status"
     },
     {
       "source": "/invite",
-      "destination": "https://bleed.bot/invite"
+      "destination": "https://discord.com/oauth2/authorize?client_id=1090740464786886657&scope=bot+applications.commands&permissions=142"
     },
     {
       "source": "/discord",
-      "destination": "https://discord.gg/bleed"
+      "destination": "https://discord.gg/Gak6Yb5t39"
     }
   ],
   "navigation": [
@@ -66,40 +66,8 @@
       ]
     },
     {
-      "group": "Server Configuration",
-      "pages": [
-        {
-          "group": "Roles",
-          "icon": "users-gear",
-          "pages": [
-            "configuration/roles/vanity",
-            "configuration/roles/booster",
-            "configuration/roles/reaction",
-            "configuration/roles/button"
-          ]
-        },
-        {
-          "group": "Messages",
-          "icon": "message",
-          "pages": [
-            "configuration/messages/system",
-            "configuration/messages/responder",
-            "configuration/messages/timer"
-          ]
-        },
-        "configuration/starboard",
-        "configuration/voicemaster",
-        "configuration/level-rewards",
-        "configuration/bump-reminder",
-        "configuration/reaction-triggers",
-        "configuration/command-aliases",
-        "configuration/logging"
-      ]
-    },
-    {
       "group": "Miscellaneous",
       "pages": [
-        "miscellaneous/music",
         "miscellaneous/webhook",
         "miscellaneous/giveaway"
       ]
@@ -109,14 +77,12 @@
       "pages": [
         "integrations/spotify",
         "integrations/lastfm",
-        "integrations/fortnite",
         "integrations/social-notifications"
       ]
     },
     {
       "group": "Resources",
       "pages": [
-        "resources/syntax",
         {
           "group": "Scripting",
           "icon": "scroll",
@@ -127,7 +93,6 @@
           ]
         },
         "resources/permissions",
-        "resources/voices",
         "resources/languages"
       ]
     },
@@ -141,7 +106,7 @@
     }
   ],
   "footerSocials": {
-    "discord": "https://discord.gg/bleed",
-    "github": "https://github.com/ju/docs"
+    "discord": "https://discord.gg/Gak6Yb5t39",
+    "github": "https://github.com/doxiadoo/docs"
   }
 }
