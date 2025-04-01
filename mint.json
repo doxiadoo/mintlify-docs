@@ -1,0 +1,112 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "lowest",
+  "logo": {
+    "dark": "favicon.png",
+    "light": "favicon.png"
+  },
+  "favicon": "favicon.png",
+  "colors": {
+    "primary": "#000000",
+    "light": "#60e7ff",
+    "dark": "#60e7ff",
+    "anchors": {
+      "from": "#658a95",
+      "to": "#95b6bd"
+    }
+  },
+  "modeToggle": {
+    "default": "dark",
+    "isHidden": true
+  },
+  "metadata": {
+    "theme-color": "#111111",
+    "og:site_name": "lowest.bot"
+  },
+  "topbarLinks": [
+    {
+      "name": "Support Server",
+      "url": "https://discord.gg/Gak6Yb5t39"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Home",
+    "url": "https://lowest.up.railway.app/"
+  },
+  "redirects": [
+    {
+      "source": "/commands",
+      "destination": "https://lowest.bot/commands"
+    },
+    {
+      "source": "/status",
+      "destination": "https://lowest.bot/status"
+    },
+    {
+      "source": "/invite",
+      "destination": "https://discord.com/oauth2/authorize?client_id=1090740464786886657&scope=bot+applications.commands&permissions=142"
+    },
+    {
+      "source": "/discord",
+      "destination": "https://discord.gg/Gak6Yb5t39"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Overview",
+      "pages": ["overview/introduction", "overview/donator-perks"]
+    },
+    {
+      "group": "Security Setup",
+      "pages": [
+        "security/antinuke",
+        "security/antiraid",
+        "security/moderation",
+        "security/fake-permissions"
+      ]
+    },
+    {
+      "group": "Miscellaneous",
+      "pages": [
+        "miscellaneous/webhook",
+        "miscellaneous/giveaway"
+      ]
+    },
+    {
+      "group": "Integrations",
+      "pages": [
+        "integrations/spotify",
+        "integrations/lastfm",
+        "integrations/social-notifications"
+      ]
+    },
+    {
+      "group": "Resources",
+      "pages": [
+        {
+          "group": "Scripting",
+          "icon": "scroll",
+          "pages": [
+            "resources/scripting/embeds",
+            "resources/scripting/variables",
+            "resources/scripting/pagination"
+          ]
+        },
+        "resources/permissions",
+        "resources/languages"
+      ]
+    },
+    {
+      "group": "Common Issues",
+      "pages": [
+        "common-issues/ios-dash",
+        "common-issues/permissions",
+        "common-issues/server-removal"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "discord": "https://discord.gg/Gak6Yb5t39",
+    "github": "https://github.com/doxiadoo/docs"
+  }
+}

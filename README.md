@@ -1,32 +1,9 @@
-# Mintlify Starter Kit
+# lowest documentation
 
-Click on `Use this template` to copy the Mintlify starter kit. The starter kit contains examples including
+This repository contains lowest's documentation that can be found [here]().
 
-- Guide pages
-- Navigation
-- Customizations
-- API Reference pages
-- Use of popular components
+We welcome new contributions. Please create a [Pull Request](https://github.com/doxiadoo/docs/pulls) if you would like to contribute to our documentation. For new contributors, we advise you to familiarize yourself with [MDX](https://mintlify.com/docs/page) and see [Contributing.md](https://github.com/doxiadoo/docs/blob/main/CONTRIBUTING.md) before requesting any changes.
 
-### Development
+## Join our community
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the documentation changes locally. To install, use the following command
-
-```
-npm i -g mintlify
-```
-
-Run the following command at the root of your documentation (where docs.json is)
-
-```
-mintlify dev
-```
-
-### Publishing Changes
-
-Install our Github App to auto propagate changes from your repo to your deployment. Changes will be deployed to production automatically after pushing to the default branch. Find the link to install on your dashboard. 
-
-#### Troubleshooting
-
-- Mintlify dev isn't running - Run `mintlify install` it'll re-install dependencies.
-- Page loads as a 404 - Make sure you are running in a folder with `docs.json`
+You can find the rest of us in lowest's official [Discord Server](https://discord.gg/Gak6Yb5t39).

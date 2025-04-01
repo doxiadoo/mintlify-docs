@@ -1,0 +1,57 @@
+---
+title: Pagination
+description: "Guide to paginating embeds with lowest."
+icon: arrows-turn-to-dots
+---
+
+## Setup
+
+<Warning>Only embeds created with `createembed` can be paginated.</Warning>
+<Steps>
+  <Step title="Set the embed">
+    Firstly you must set the embed to work with pagination. ``` ,pagination set
+    [message link] ```
+  </Step>
+  <Step title="Add the next page">
+    You can now add further pages to your embed. This command works with adding
+    any number of pages required. ``` ,pagination add [message link] [embed
+    content] ```
+  </Step>
+  <Step title="Updating a paginated embed">
+    If you need to edit a page you've made during setup, you can use the command
+    below. ``` ,pagination update [message link] [page number] ```
+  </Step>
+  <Step title="Removing a page">
+    If you want to remove a page you have setup, you can use the below command
+    ``` ,pagination remove [message link] [page number] ```
+  </Step>
+</Steps>
+
+## Related commands
+
+<AccordionGroup>
+  <Accordion title="Delete a paginated embed entirely">
+    ```
+    ,pagination delete [message link]
+    ```
+  </Accordion>
+
+{" "}
+
+<Accordion title="Reset all paginated embeds in a guild">
+  ``` ,pagination reset ```
+</Accordion>
+
+  <Accordion title="List all active paginations">
+    ```
+    ,pagination list
+    ```
+  </Accordion>
+  
+  <Accordion title="Readd the navigation reactions">
+    Use this command in case the arrow reactions allowing navigation between pages were deleted.
+    ```
+    ,pagination restorereactions (message link)
+    ```
+  </Accordion>
+</AccordionGroup>
